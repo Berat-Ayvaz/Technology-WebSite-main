@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="shortcut icon" href="./assets/img/icon/TeknoVista.png">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>TeknoVista-Gelişen ve büyüyen Teknoloji bir tık uzağında</title>
+</head>
+
+<body class="position-relative ">
+     <!-- Header -->
+     <header class="sticky-top">
+        <div class="container g-0">
+            <nav class="navbar navbar-expand-md p-2 px-4">
+                <a href="index.html"><img src="/assets/img/icon/TeknoVista.png" class="rounded-circle" width="50" alt=""></a>
+                <div class="navbar-nav ms-auto d-none d-md-flex  ">
+                    <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                    <a class="nav-link" href="about.html">Hakkında</a>
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </div>
+                <div class="navbar-mobile d-flex d-md-none ">
+                    <a class="navbar-mobile-item active" aria-current="page" href="index.html">Anasayfa</a>
+                    <a class="navbar-mobile-item" href="about.html">Hakkında</a>
+                    <a class="navbar-mobile-item" href="iletisim.html">İletişim</a>
+                </div>
+                <span class="navbar-hamburger d-flex d-md-none">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </span>
+            </nav>
+    </header>
+     <!-- Bottom app bar -->
+     <nav class="bottom-app-bar d-flex d-md-none">
+        <a href="index.html">
+            <i class="bi bi-house-fill text-primary"></i>
+        </a>
+        <a href="index.html">
+            <i class="bi bi-file-text-fill"></i>
+        </a>
+        <a href="index.html">
+            <i class="bi bi-tags-fill"></i>
+        </a>
+    </nav>
+    <section>
+        <div class="page-header">
+            <div class="page-header-content w-100 text-center text-md-start">
+                <h1 class="page-header-content-title fs-2">İletişim</h1>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="communication">
+            <div class="left-cont">
+                <h3>İletişime geçin</h3>
+                <br>
+                <span>
+                    Daha kaliteli ve doğru haberler için lütfen bizimle iletişime geçin ve geri bildirim gönderin
+                </span>
+                <div class="icon">
+                    <span><i class="bi bi-geo-alt"></i>Türkiye/Mersin</span>
+                    <span><i class="bi bi-envelope-paper"></i>example@gmail.com</span>
+                    <span><i class="bi bi-telephone"></i>216-728-9000</span>
+                </div>
+                <div class="icon-contact">
+                    <h3>Sosyal Medya</h3>
+                    <a href="https://www.x.com/"><i class="bi bi-twitter" style="color: #3584e4;"></i></a>
+                    <a href="https://www.instagram.com/"><i class="bi bi-instagram" style="color: #3584e4;"></i></a>
+                    <a href="https://www.facebook.com/"><i class="bi bi-facebook" style="color: #3584e4;"></i></a>
+                    <a href="https://web.telegram.org/k/"><i class="bi bi-telegram" style="color: #3584e4;"></i></a>
+                </div>
+            </div>
+            <div class="rigth-cont">
+                <h3>İletişim</h3>
+                <div class="form ">
+                    <input type="text" placeholder="İsim"">
+                    <br>
+                    <input type=" text" id="email" placeholder="E-posta" oninput="checkEmail()">
+                    <p id="result"></p>
+                    <br>
+                    <textarea name="Message" cols="24" rows="10" placeholder="Mesaj"></textarea>
+                    <br>
+                    <button type="button" >Gönder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="footer-bg"></div>
+    </section>
+
+    <footer>
+        <div class="footer bg-black-blur">
+            <div class="container py-5">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 border-end">
+                        <div class="footer-start">
+                            <a class="footer-start-brand" href="index.html">
+                                <span class="footer-start-brand-name fs-4">TeknoVista</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5 mt-md-0">
+                        <div class="footer-center">
+                            <a href="about.html" class="footer-center-link p-1">Hakkımızda</a>
+                            <a href="iletisim.html" class="footer-center-link p-1">İletişim</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5 mt-md-0 border-start">
+                        <div class="footer-end">
+                            <div class="footer-end-item">
+                                <span class="footer-end-icon-wrapper"><i class="bi bi-envelope"></i></span>
+                                <span>example@gmail.com</span>
+                            </div>
+                            <div class="footer-end-item">
+                                <span class="footer-end-icon-wrapper"><i class="bi bi-telephone"></i></span>
+                                <span>216-728-9000</span>
+                            </div>
+                            <div class="footer-end-social ">
+                                <span class="footer-end-icon-wrapper"><i class="bi bi-facebook"></i></span>
+                                <span class="footer-end-icon-wrapper"><i class="bi bi-youtube"></i></span>
+                                <span class="footer-end-icon-wrapper"><i class="bi bi-instagram"></i></span>
+                                <span class="footer-end-icon-wrapper"><i class="bi bi-twitter-x"></i></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5 mb-md-0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center py-4">
+                            &copy;
+                            Tüm Hakları Saklıdır.
+                            Teknoloji Sitesi
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+        const options = {
+            bottom: '15px',
+            right: '32px',
+            left: 'unset',
+            time: '0.1s',
+            mixColor: '#fff',
+            backgroundColor: '#fff',
+            buttonColorDark: '#100f2c',
+            buttonColorLight: '#fff',
+            saveInCookies: true,
+            label: '🌓',
+            autoMatchOsTheme: true,
+        }
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script>
+</body>
+
+</html>
