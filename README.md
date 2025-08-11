@@ -1,2 +1,2 @@
-HTML ve SCSS kullanılarak yapılmıştır
-web sitenin yayınlanmış hali: https://teknovista.netlify.app/
+HTML, SCSS ve JavaScrıpt kullanılarak yapılmıştır
+web sitenin yayınlanmış hali: https://berat-ayvaz.github.io/Technology-WebSite-main/
